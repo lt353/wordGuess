@@ -1,19 +1,31 @@
-/*basic styling for template at the start*/
 body {
-  background-color: #282c34;
+  font-family: Roboto, Helvetica, sans-serif;
+}
+
+label {
+  margin-right: 10px;
+}
+
+span {
   color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  background-color: blue;  
+  font-size: 2rem;
   text-align: center;
-  padding: 20px;
+  line-height: 2.5rem;
+  display: inline-block;
+  width: 2.5rem;
+  height: 2.5rem;
+  margin: 3px;
 }
-p {
-  color: #61dafb;
-  font-size: 18px;
-  margin: 10px 0;
+
+.not-part {
+  background-color:gray;
 }
-h1 {
-  color: #bd9ee9;
-  font-size: 56px;
-  margin-bottom: 20px;
+
+.correct {
+  background-color: forestgreen;  
+}
+
+.wrong-place {
+  background-color: goldenrod;  
 }
